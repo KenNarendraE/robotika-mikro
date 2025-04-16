@@ -1,14 +1,15 @@
-🔥 Deteksi Api dengan ESP32 – Proyek Sensor Api + Buzzer
+# 🔥 Deteksi Api dengan ESP32 – Proyek Sensor Api + Buzzer
+
 Proyek ini menggunakan ESP32, sensor api (flame sensor), dan buzzer untuk mendeteksi keberadaan api. Ketika sensor mendeteksi nyala api, buzzer akan menyala sebagai alarm peringatan.
 
-🧠 Cara Kerja
-Sensor api mendeteksi nyala api melalui sinyal digital di pin GPIO 27
+## 🧠 Cara Kerja
+- Sensor api mendeteksi nyala api melalui sinyal digital di pin GPIO 27
 
-Jika api terdeteksi (sensor mengirim sinyal LOW), buzzer akan menyala selama 3 detik
+- Jika api terdeteksi (sensor mengirim sinyal LOW), buzzer akan menyala selama 3 detik
 
-Jika tidak ada api, buzzer akan mati dan sistem akan terus memantau
+- Jika tidak ada api, buzzer akan mati dan sistem akan terus memantau
 
-🧰 Komponen yang Digunakan
+## 🧰 Komponen yang Digunakan
 | Komponen             | Keterangan                    |
 |----------------------|-------------------------------|
 | ESP32                | Board mikrokontroler utama    |
