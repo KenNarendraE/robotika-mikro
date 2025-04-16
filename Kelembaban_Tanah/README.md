@@ -27,11 +27,14 @@ Proyek ini menggunakan **ESP32**, **sensor kelembaban tanah**, dan **buzzer** un
 
 ## 🔌 Skema Koneksi
 
-Pin Sensor | Pin ESP32
-VCC | 3V3
-GND | GND
-AOUT / Analog Out | GPIO 34
+| Pin Sensor          | Pin ESP32 |
+|---------------------|-----------|
+| VCC                 | 3V3       |
+| GND                 | GND       |
+| AOUT / Analog Out   | GPIO 34   |
 
-Pin Buzzer | Pin ESP32
-VCC / + | GPIO 15
-GND / - | GND
+
+| Pin Buzzer          | Pin ESP32 |
+|---------------------|-----------|
+| VCC / +             | GPIO 15   |
+| GND / -             | GND       |
