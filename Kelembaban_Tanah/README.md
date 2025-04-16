@@ -14,7 +14,7 @@ Proyek ini menggunakan **ESP32**, **sensor kelembaban tanah**, dan **buzzer** un
 
 ## 🧰 Komponen yang Digunakan
 
-| Komponen              | Keterangan                    |
+| Komponen             | Keterangan                    |
 |----------------------|-------------------------------|
 | ESP32                | Board mikrokontroler utama    |
 | Sensor kelembaban    | Bisa kapasitif atau YL-69     |
@@ -23,18 +23,15 @@ Proyek ini menggunakan **ESP32**, **sensor kelembaban tanah**, dan **buzzer** un
 | Breadboard (opsional)| Untuk merapikan rangkaian     |
 
 ---
-(images/moist_sensor.png)
+![Wiring Diagram](images/moist_sensor.png)
 
 ## 🔌 Skema Koneksi
 
-Sensor Kelembaban       ESP32
-------------------      -----
-VCC                   -> 3V3
-GND                   -> GND
-AOUT / Analog Out     -> GPIO 34
+Pin Sensor | Pin ESP32
+VCC | 3V3
+GND | GND
+AOUT / Analog Out | GPIO 34
 
-
-Buzzer ESP32            ESP32
-------------------      -----  
-(VCC)                 -> GPIO 15
-(GND)                 -> GND
+Pin Buzzer | Pin ESP32
+VCC / + | GPIO 15
+GND / - | GND
